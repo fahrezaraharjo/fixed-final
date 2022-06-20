@@ -32,7 +32,6 @@ html {
 
 body {
     
-    line-height: 1, 7;
     background-image: url(https://www.sansiri.com/uploads/gallery/2022/04/xt-huaikhwang/650_xt-huaikhwang-condo-gallery-02.jpg) ;
     backdrop-filter: blur(10px);
     
@@ -42,7 +41,6 @@ body {
 /* =============== GENERAL STYLE ================ */
 
 .container {
-    width: var(--container-width-lg);
     margin: 0 auto;
 }
 
@@ -112,3 +110,4 @@ img {
     width: 100%;
    height: max-content;
 }
+

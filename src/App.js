@@ -7,17 +7,21 @@ import Login from './pages/Login';
 import Register from './pages/Register';
 import Profile from './pages/Profile';
 import Details from './pages/Details';
+import Admin from './pages/Admin';
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import React from 'react';
 
 function App() {
   return (
     <div className="App">
+
+      
       <Router>
         <Header />
 
 
         <Routes>
+        <Route exact path="/Admin" element={<Admin/>}/>
         <Route exact path="/Details" element={<Details/>}/>
         <Route exact path="/Profile" element={<Profile/>}/>
         <Route exact path="/Register" element={<Register/>}/>
