@@ -6,7 +6,7 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import { Avatar, Button } from '@mui/material';
 import { Link } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
-import Company from "../assets/afv.png"
+import Company from "../../assets/afv.png"
 
 function Header() {
   const navigate = useNavigate();

@@ -1,6 +1,6 @@
 import React from 'react'
 import './Details.css'
-import CardDetail from "../components/CardDetail"
+import CardDetail from "../../components/CardDetails/CardDetail"
 import StarIcon from "@mui/icons-material/Star";
 
 

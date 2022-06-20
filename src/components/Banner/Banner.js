@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './Banner.css'
 import { Button } from "@mui/material"
-import Search from './Search';
+import Search from '../Search/Search';
 import { useNavigate } from 'react-router-dom';
 
 function Banner() {

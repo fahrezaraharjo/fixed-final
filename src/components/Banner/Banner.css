@@ -6,12 +6,14 @@
 
 
 
+
+
 .banner_info {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
 	background-size: 400% 400%;
 	animation: gradient 15s ease infinite;
     
-    backdrop-filter: blur(2px);
+    /* backdrop-filter: blur(2px); */
     color: white;
     padding-top: 25vh;
     padding-left: 50px;

@@ -1,11 +1,11 @@
 import React from 'react'
-import SideBar from '../components/Admin/SideBar'
-import NavBar from '../components/Admin/NavBar'
+import SideBar from '../../components/Admin/SideBar/SideBar'
+import NavBar from '../../components/Admin/Navbar/NavBar'
 import "./Admin.css";
-import Widget from "../components/Admin/Widget";
-import Featured from "../components/Admin/Featured";
-import Chart from "../components/Admin/Chart";
-import Table from "../components/Admin/Table";
+import Widget from "../../components/Admin/Widget/Widget";
+import Featured from "../../components/Admin/Featured/Featured";
+import Chart from '../../components/Admin/Chart/Chart'
+import Table from "../../components/Admin/Table/Table";
 
 
 

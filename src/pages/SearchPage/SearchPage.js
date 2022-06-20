@@ -1,7 +1,7 @@
 import { Button } from '@mui/material'
 import React from 'react'
 import './SearchPage.css'
-import SearchResult from '../components/SearchResult'
+import SearchResult from '../../components/SearchResult/SearchResult'
 
 
 

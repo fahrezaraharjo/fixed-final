@@ -1,6 +1,6 @@
 import React from 'react'
 import "./profile.css"
-import Me from "../assets/eja-about.PNG"
+import Me from "../../assets/eja-about.PNG"
 import { AiOutlinePhone } from "react-icons/ai"
 import { MdMarkEmailUnread } from "react-icons/md"
 import { TbWallet } from "react-icons/tb"

@@ -1,8 +1,8 @@
 import React from 'react'
 import './Home.css'
-import Banner from '../components/Banner'
-import Card from '../components/Card'
-import Logout from "../components/Logout";
+import Banner from '../../components/Banner/Banner'
+import Card from '../../components/Card/Card'
+import Logout from "../../components/Logout/Logout";
 import { useNavigate } from 'react-router-dom';
 import { Button } from '@mui/material';
 
@@ -16,11 +16,11 @@ function Home() {
       <Banner />
 
       <div className='home_section'>
-      <Button onClick={() => navigate('/Details')}><Card
+     <Card
           src="https://a0.muscache.com/im/pictures/eb9c7c6a-ee33-414a-b1ba-14e8860d59b3.jpg?im_w=720"
           title="Online Experiences"
           description="Unique activities we can do together, led by a world of hosts."
-        /></Button>
+        />
         
         <Card
           src="https://a0.muscache.com/im/pictures/15159c9c-9cf1-400e-b809-4e13f286fa38.jpg?im_w=720"
