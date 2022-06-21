@@ -19,77 +19,77 @@ function SideBar() {
 
     return (
         <div className="sidebar">
-            <div className="top">
+            <div className="sidebar__top">
                 <Link to="/" style={{ textDecoration: "none" }}>
-                    <span className="logo">Admin AFv</span>
+                    <span className="sidebar__logo">Admin AFv</span>
                 </Link>
             </div>
             <hr />
-            <div className="center">
+            <div className="sidebar__center">
                 <ul>
-                    <p className="title">MAIN</p>
+                    <p className="sidebar__title">MAIN</p>
                     <li>
-                        <DashboardIcon className="icon" />
+                        <DashboardIcon className="sidebar__icon" />
                         <span>Dashboard</span>
                     </li>
-                    <p className="title">LISTS</p>
+                    <p className="sidebar__title">LISTS</p>
                     <Link to="/users" style={{ textDecoration: "none" }}>
                         <li>
-                            <PersonOutlineIcon className="icon" />
+                            <PersonOutlineIcon className="sidebar__icon" />
                             <span>Users</span>
                         </li>
                     </Link>
                     <Link to="/products" style={{ textDecoration: "none" }}>
                         <li>
-                            <StoreIcon className="icon" />
+                            <StoreIcon className="sidebar__icon" />
                             <span>Hotels</span>
                         </li>
                     </Link>
                     <li>
-                        <CreditCardIcon className="icon" />
+                        <CreditCardIcon className="sidebar__icon" />
                         <span>Booking</span>
                     </li>
 
-                    <p className="title">USEFUL</p>
+                    <p className="sidebar__title">USEFUL</p>
                     <li>
-                        <InsertChartIcon className="icon" />
+                        <InsertChartIcon className="sidebar__icon" />
                         <span>Stats</span>
                     </li>
                     <li>
-                        <NotificationsNoneIcon className="icon" />
+                        <NotificationsNoneIcon className="sidebar__icon" />
                         <span>Notifications</span>
                     </li>
-                    <p className="title">SERVICE</p>
+                    <p className="sidebar__title">SERVICE</p>
                     <li>
-                        <SettingsSystemDaydreamOutlinedIcon className="icon" />
+                        <SettingsSystemDaydreamOutlinedIcon className="sidebar__icon" />
                         <span>System Health</span>
                     </li>
                     <li>
-                        <PsychologyOutlinedIcon className="icon" />
+                        <PsychologyOutlinedIcon className="sidebar__icon" />
                         <span>Logs</span>
                     </li>
                     <li>
-                        <SettingsApplicationsIcon className="icon" />
+                        <SettingsApplicationsIcon className="sidebar__icon" />
                         <span>Settings</span>
                     </li>
-                    <p className="title">USER</p>
+                    <p className="sidebar__title">USER</p>
                     <li>
-                        <AccountCircleOutlinedIcon className="icon" />
+                        <AccountCircleOutlinedIcon className="sidebar__icon" />
                         <span>Profile</span>
                     </li>
                     <li>
-                        <ExitToAppIcon className="icon" />
+                        <ExitToAppIcon className="sidebar__icon" />
                         <span>Logout</span>
                     </li>
                 </ul>
             </div>
-            <div className="bottom">
+            <div className="sidebar__bottom">
                 <div
-                    className="colorOption"
+                    className="sidebar__colorOption"
                     onClick={() => ({ type: "LIGHT" })}
                 ></div>
                 <div
-                    className="colorOption"
+                    className="sidebar__colorOption"
                     onClick={() => ({ type: "DARK" })}
                 ></div>
             </div>

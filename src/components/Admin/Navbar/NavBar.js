@@ -1,6 +1,5 @@
 import React from 'react'
 import "./navbar.css";
-import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlined";
@@ -11,38 +10,38 @@ import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
 function NavBar() {
     return (
         <div className="navbar">
-          <div className="wrapper">
+          <div className="navbar__wrapper">
             
-            <div className="items">
-              <div className="item">
-                <LanguageOutlinedIcon className="icon" />
+            <div className="navbar__items">
+              <div className="navbar__item">
+                <LanguageOutlinedIcon className="navbar__icon" />
                 English
               </div>
-              <div className="item">
+              <div className="navbar__item">
                 <DarkModeOutlinedIcon
-                  className="icon"
+                  className="navbar__icon"
                   onClick={() => ({ type: "TOGGLE" })}
                 />
               </div>
-              <div className="item">
-                <FullscreenExitOutlinedIcon className="icon" />
+              <div className="navbar__item">
+                <FullscreenExitOutlinedIcon className="navbar__icon" />
               </div>
-              <div className="item">
-                <NotificationsNoneOutlinedIcon className="icon" />
-                <div className="counter">1</div>
+              <div className="navbar__item">
+                <NotificationsNoneOutlinedIcon className="navbar__icon" />
+                <div className="navbar__counter">1</div>
               </div>
-              <div className="item">
+              <div className="navbar__item">
                 <ChatBubbleOutlineOutlinedIcon className="icon" />
-                <div className="counter">2</div>
+                <div className="navbar__counter">2</div>
               </div>
-              <div className="item">
-                <ListOutlinedIcon className="icon" />
+              <div className="navbar__item">
+                <ListOutlinedIcon className="navbar__icon" />
               </div>
-              <div className="item">
+              <div className="navbar__item">
                 <img
                   src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
                   alt=""
-                  className="avatar"
+                  className="navbar__avatar"
                 />
               </div>
             </div>

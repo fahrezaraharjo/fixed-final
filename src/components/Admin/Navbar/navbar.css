@@ -7,7 +7,7 @@
     color: #555;
 }
 
-.wrapper {
+.navbar__wrapper {
     width: 100%;
     padding: 20px;
     display: flex;
@@ -15,46 +15,46 @@
     justify-content: space-between;
 }
 
- .search {
+ .navbar__search {
     display: flex;
     align-items: center;
     border: 0.5px solid lightgray;
     padding: 3px;
 }
 
-.search > input {
+.navbar__search > input {
     border: none;
     outline: none;
     background: transparent;
 }
 
-.search > input::placeholder {
+.navbar__search > input::placeholder {
     font-size: 12px;
 }
 
-.items {
+.navbar__items {
     display: flex;
     align-items: center;
 }
 
-.item {
+.navbar__item {
     display: flex;
     align-items: center;
     margin-right: 20px;
     position: relative;
 }
 
-.icon {
+.navbar__icon {
     font-size: 20px;
 }
 
-.avatar {
+.navbar__avatar {
     width: 30px;
     height: 30px;
     border-radius: 50%;
 }
 
-.counter {
+.navbar__counter {
     width: 15px;
     height: 15px;
     background-color: transparent;

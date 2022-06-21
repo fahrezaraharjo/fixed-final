@@ -61,6 +61,11 @@
     display: flex;
     justify-content: space-between;
     width: fit-content;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    gap: 10px;
 }
 
 .searchResult_star {
@@ -78,7 +83,8 @@
 }
 
 .searchResult_price {
-    position: absolute;
+    position: fit-content;
     bottom: 92px;
     right: 30px;
+    color: greenyellow;
 }

@@ -9,39 +9,39 @@ import KeyboardArrowUpOutlinedIcon from "@mui/icons-material/KeyboardArrowUpOutl
 const Featured = () => {
   return (
     <div className="featured">
-      <div className="top">
-        <h1 className="title">Total Revenue</h1>
+      <div className="featured__top">
+        <h1 className="featured__title">Total Revenue</h1>
         <MoreVertIcon fontSize="small" />
       </div>
-      <div className="bottom">
+      <div className="featured__bottom">
         <div className="featuredChart">
           <CircularProgressbar value={70} text={"70%"} strokeWidth={5} />
         </div>
         <p className="title">Total sales made today</p>
-        <p className="amount">$420</p>
-        <p className="desc">
+        <p className="featured__amount">$420</p>
+        <p className="featured__desc">
           Previous transactions processing. Last payments may not be included.
         </p>
-        <div className="summary">
-          <div className="item">
-            <div className="itemTitle">Target</div>
-            <div className="itemResult negative">
+        <div className="featured__summary">
+          <div className="featured__item">
+            <div className="featured__itemTitle">Target</div>
+            <div className="featured__itemResult negative">
               <KeyboardArrowDownIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
+              <div className="featured__resultAmount">$12.4k</div>
             </div>
           </div>
-          <div className="item">
-            <div className="itemTitle">Last Week</div>
-            <div className="itemResult positive">
+          <div className="featured__item">
+            <div className="featured__itemTitle">Last Week</div>
+            <div className="featured__itemResult positive">
               <KeyboardArrowUpOutlinedIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
+              <div className="featured__resultAmount">$12.4k</div>
             </div>
           </div>
-          <div className="item">
-            <div className="itemTitle">Last Month</div>
-            <div className="itemResult positive">
+          <div className="featured__item">
+            <div className="featured__itemTitle">Last Month</div>
+            <div className="featured__itemResult positive">
               <KeyboardArrowUpOutlinedIcon fontSize="small"/>
-              <div className="resultAmount">$12.4k</div>
+              <div className="featured__resultAmount">$12.4k</div>
             </div>
           </div>
         </div>

@@ -1,15 +1,16 @@
 .chart {
-    flex: 4;
-    -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
-    box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
-    padding: 10px;
-    color: rgb(165, 28, 210);
+  flex: 4;
+  -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+  box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+  padding: 10px;
+  color: rgb(165, 28, 210);
 }
 
-.title {
-    margin-bottom: 20px;
-  }
+.chart__title {
+  margin-bottom: 20px;
+  color: black;
+}
 
-  .chartGrid {
-    stroke: rgb(142, 9, 203);
-  }
+.chartGrid {
+  stroke: rgb(142, 9, 203);
+}
