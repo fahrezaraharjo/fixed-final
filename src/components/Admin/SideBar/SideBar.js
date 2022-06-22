@@ -20,18 +20,20 @@ function SideBar() {
     return (
         <div className="sidebar">
             <div className="sidebar__top">
-                <Link to="/" style={{ textDecoration: "none" }}>
+                
                     <span className="sidebar__logo">Admin AFv</span>
-                </Link>
+                
             </div>
             <hr />
             <div className="sidebar__center">
                 <ul>
                     <p className="sidebar__title">MAIN</p>
+                    <Link to="/admin" style={{ textDecoration: "none" }}>
                     <li>
                         <DashboardIcon className="sidebar__icon" />
                         <span>Dashboard</span>
                     </li>
+                    </Link>
                     <p className="sidebar__title">LISTS</p>
                     <Link to="/users" style={{ textDecoration: "none" }}>
                         <li>
@@ -39,16 +41,18 @@ function SideBar() {
                             <span>Users</span>
                         </li>
                     </Link>
-                    <Link to="/products" style={{ textDecoration: "none" }}>
+                    <Link to="/Hotels" style={{ textDecoration: "none" }}>
                         <li>
                             <StoreIcon className="sidebar__icon" />
                             <span>Hotels</span>
                         </li>
                     </Link>
+                    <Link to="/Booking" style={{ textDecoration: "none" }}>
                     <li>
                         <CreditCardIcon className="sidebar__icon" />
                         <span>Booking</span>
                     </li>
+                    </Link>
 
                     <p className="sidebar__title">USEFUL</p>
                     <li>

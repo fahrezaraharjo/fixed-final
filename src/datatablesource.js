@@ -19,6 +19,11 @@ export const userColumns = [
     headerName: "Email",
     width: 230,
   },
+  {
+    field: "hotels",
+    headerName: "Hotels",
+    width: 230,
+  },
 
   {
     field: "age",
@@ -43,10 +48,11 @@ export const userColumns = [
 export const userRows = [
   {
     id: 1,
-    username: "Snow",
-    img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    username: "Fahreza",
+    img: "http://localhost:3000/static/media/eja-about.e8bffadc.PNG",
     status: "active",
-    email: "1snow@gmail.com",
+    email: "fahrezaraharjo92@gmail.com",
+    hotels: "Art Deco",
     age: 35,
   },
   {
@@ -118,6 +124,14 @@ export const userRows = [
     username: "Roxie",
     img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
     email: "snow@gmail.com",
+    status: "active",
+    age: 65,
+  },
+  {
+    id: 11,
+    username: "eja",
+    img: "https://images.pexels.com/photos/1820770/pexels-photo-1820770.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
+    email: "fahrezaraharjo92@gmail.com",
     status: "active",
     age: 65,
   },

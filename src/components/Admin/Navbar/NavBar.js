@@ -6,6 +6,7 @@ import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlin
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
+import Me from "../../../assets/eja-about.PNG"
 
 function NavBar() {
     return (
@@ -39,7 +40,7 @@ function NavBar() {
               </div>
               <div className="navbar__item">
                 <img
-                  src="https://images.pexels.com/photos/941693/pexels-photo-941693.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500"
+                  src={Me}
                   alt=""
                   className="navbar__avatar"
                 />

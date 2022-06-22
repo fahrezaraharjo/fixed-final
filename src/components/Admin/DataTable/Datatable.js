@@ -30,6 +30,12 @@ const Datatable = () => {
             >
               Delete
             </div>
+            <div
+              className="editButton"
+              onClick={() => (params.row.id)}
+            >
+              Edit
+            </div>
           </div>
         );
       },

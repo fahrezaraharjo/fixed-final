@@ -24,7 +24,9 @@ function Header() {
       </div>
 
       <div className='header_right'>
-        <Button onClick={() => navigate('/login')}>Become a host</Button>
+      <Link to="/users/test" style={{ textDecoration: "none" }}>
+              <div className="viewButton">Become a guest</div>
+            </Link>
         <LanguageIcon />
         <ExpandMoreIcon />
         <Button onClick={() => navigate('/Profile')}>
